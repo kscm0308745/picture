@@ -1,49 +1,365 @@
-<mxfile host="app.diagrams.net" modified="2023-08-01T01:26:57.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="wqJHiJHUVXF5IJldgYHQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T02:36:50.770Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WMfnUn1K56xrinSartHH" version="21.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+        <mxCell id="hdDRpApSWMln7eGKxLAe-75" value="小程序端发起" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="130" width="820" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-4" value="小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="80" width="100" height="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry x="45" y="840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-74" value="重新用主播的rtmp拉流地址进行拉流&lt;br&gt;观看直播" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-73" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry x="50" y="1220" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-85" value="会员端操作拒绝" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-84" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="55" y="1200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry x="50" y="1370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-92" value="会员端操作同意" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-91" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry x="45" y="630" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-110" value="渲染页面并推流" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-109" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry x="50" y="1620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-112" value="渲染页面并推流" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-111" parent="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-5" value="后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="80" width="100" height="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="49" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-32" value="记录数据库live_room_record_insert_video" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-31" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="44" y="402" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-42" value="收到的是主播同意" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-41" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="382" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="49" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-54" value="收到的是主播拒绝" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-53" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="45" y="550" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="49" y="680" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="49" y="750" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-66" value="更新数据库" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-65" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="45" y="1120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="49" y="1230" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-95" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="49" y="1390" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="49" y="1500" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-6" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="80" width="100" height="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry x="45" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-38" value="主播操作同意或拒绝" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-37" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry x="50" y="462" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-51" value="主播端进行混流" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-50" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="442" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry x="50" y="810" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-72" value="主播端取消混流" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-71" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="790" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry x="45" y="1109" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-77" value="主播打开观众列表" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-76" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1089" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-100" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry x="45" y="1480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-101" value="主播端混流" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="hdDRpApSWMln7eGKxLAe-100" parent="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-8" value="会员发起连麦&lt;br&gt;调用/front/mixedStream/updateLiveRoomLinkMicStatus" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry x="0.002" width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="200" as="sourcePoint" />
+            <mxPoint x="210" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-31" target="hdDRpApSWMln7eGKxLAe-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="hdDRpApSWMln7eGKxLAe-36" value="广播122,会员连麦申请im消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-34">
+          <mxGeometry x="-0.4012" y="-1" relative="1" as="geometry">
+            <mxPoint x="39" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
+        <mxCell id="hdDRpApSWMln7eGKxLAe-39" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-37" target="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-40" value="调用/app/mixedStream/&lt;br&gt;updateLiveRoomLinkMicStatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-39">
+          <mxGeometry x="0.279" y="1" relative="1" as="geometry">
+            <mxPoint x="32" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-43" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.5" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-44" value="广播连麦中im消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-43">
+          <mxGeometry x="0.2679" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
+        <mxCell id="hdDRpApSWMln7eGKxLAe-46" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="629.5" y="502" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-49" value="广播连麦中im消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-46">
+          <mxGeometry x="0.0428" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+        <mxCell id="hdDRpApSWMln7eGKxLAe-52" value="调用queryAllLiveRoomLinkMic&lt;br&gt;获取当前自己的推流地址,&lt;br&gt;主播的trtc拉流地址&lt;br&gt;及其他连麦会员的拉流地址" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="0.002" width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="642" as="sourcePoint" />
+            <mxPoint x="379.5" y="642" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
+        <mxCell id="hdDRpApSWMln7eGKxLAe-56" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-53" target="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-57" value="通知会员连麦被拒绝" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-56">
+          <mxGeometry x="0.2906" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="hdDRpApSWMln7eGKxLAe-58" value="返回" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="670" as="sourcePoint" />
+            <mxPoint x="129.5" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        <mxCell id="hdDRpApSWMln7eGKxLAe-60" value="会员取消连麦,&lt;br&gt;调用/front/mixedStream/&lt;br&gt;updateLiveRoomLinkMicStatus" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="770" as="sourcePoint" />
+            <mxPoint x="210" y="770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="hdDRpApSWMln7eGKxLAe-62" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-6" target="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="770" as="sourcePoint" />
+            <mxPoint x="470" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-64" value="主播取消连麦,&lt;br&gt;调用/app/mixedStream/&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;updateLiveRoomLinkMicStatus" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hdDRpApSWMln7eGKxLAe-61">
+          <mxGeometry x="0.0041" width="80" relative="1" as="geometry">
+            <mxPoint x="630" y="770" as="sourcePoint" />
+            <mxPoint x="710" y="770" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-67" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-65" target="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-68" value="广播连麦结束的im消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-67">
+          <mxGeometry x="0.3547" y="-1" relative="1" as="geometry">
+            <mxPoint x="40" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-69" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-65" target="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-70" value="广播连麦结束的im消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-69">
+          <mxGeometry x="-0.0353" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-78" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-76" target="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-80" value="发起和某会员连麦&lt;br&gt;调用/app/mixedStream/&lt;br&gt;createLiveRoomLinkMic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-78">
+          <mxGeometry x="0.1568" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-82" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-81" target="hdDRpApSWMln7eGKxLAe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-83" value="广播给会员" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-82">
+          <mxGeometry x="0.3605" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-86" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-84" target="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-88" value="拒绝,则调用/front/mixedStream/&lt;br&gt;updateLiveRoomLinkMicStatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-86">
+          <mxGeometry x="-0.4489" y="-1" relative="1" as="geometry">
+            <mxPoint x="54" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-89" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-87" target="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-90" value="im通知主播,连麦被拒绝" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-89">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-96" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hdDRpApSWMln7eGKxLAe-95" target="hdDRpApSWMln7eGKxLAe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-97" value="im通知主播,连麦成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-96">
+          <mxGeometry x="-0.2931" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-98" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="1530" as="sourcePoint" />
+            <mxPoint x="129.5" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-99" value="连播连麦成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-98">
+          <mxGeometry x="0.2585" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-104" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="hdDRpApSWMln7eGKxLAe-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="1590" as="sourcePoint" />
+            <mxPoint x="210" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-105" value="调用queryAllLiveRoomLinkMic&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;获取当前自己的推流地址,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;主播的trtc拉流地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;及其他连麦会员的拉流地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-104">
+          <mxGeometry x="-0.5912" y="-1" relative="1" as="geometry">
+            <mxPoint x="59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-107" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="1650" as="sourcePoint" />
+            <mxPoint x="129.5" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdDRpApSWMln7eGKxLAe-108" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hdDRpApSWMln7eGKxLAe-107">
+          <mxGeometry x="0.2505" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
